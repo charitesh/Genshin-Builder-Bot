@@ -1,0 +1,914 @@
+[
+  {
+    "name": "Albedo",
+    "role": "Sub DPS / Support",
+    "weapons": ["Festering Desire", "Cinnabar Spindle", "Harbinger of Dawn"],
+    "artifacts": ["Husk of Opulent Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Favonius Bladework - Maid",
+      "elemental_skill": "Abiogenesis: Solar Isotoma",
+      "elemental_burst": "Rite of Progeniture: Tectonic Tide",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["DEF%", "Geo DMG Bonus", "CRIT Rate"],
+      "sub": ["CRIT DMG", "ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Alhaitham",
+    "role": "Main DPS",
+    "weapons": ["Light of Foliar Incision", "Kagura's Verity", "Mistsplitter Reforged"],
+    "artifacts": ["Gilded Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Chisel-Light Mirror",
+      "elemental_skill": "Universality: An Elaboration",
+      "elemental_burst": "Shattering Ice",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Elemental Mastery", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Aloy",
+    "role": "Sub DPS / Support",
+    "weapons": ["Thundering Pulse", "Prototype Crescent", "Rust"],
+    "artifacts": ["Noblesse Oblige (2-Piece)", "Blizzard Strayer (2-Piece)"],
+    "talents": {
+      "normal_attack": "Liutian Archery",
+      "elemental_skill": "Trail of the Qilin",
+      "elemental_burst": "Celestial Shower",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Cryo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Arataki Itto",
+    "role": "Main DPS",
+    "weapons": ["Redhorn Stonethresher", "Serpent Spine", "The Unforged"],
+    "artifacts": ["Husk of Opulent Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Fight Club Legend",
+      "elemental_skill": "Masatsu Zetsugi: Akaushi Burst",
+      "elemental_burst": "Royal Descent: Behold, Itto the Evil",
+      "priority_order": ["elemental_burst", "normal_attack", "elemental_skill"]
+    },
+    "stats_priority": {
+      "main": ["DEF%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Arlecchino",
+    "role": "Main DPS",
+    "weapons": ["Crimson Moon's Semblance", "The Unforged", "Redhorn Stonethresher"],
+    "artifacts": ["Fragment of Harmonic Whimsy (4-Piece)"],
+    "talents": {
+      "normal_attack": "Crimson Moon's Dance",
+      "elemental_skill": "Crimson Moon's Embrace",
+      "elemental_burst": "Crimson Moon's Wrath",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Ayaka",
+    "role": "Main DPS",
+    "weapons": ["Mistsplitter Reforged", "Aquila Favonia", "Amenoma Kageuchi"],
+    "artifacts": ["Blizzard Strayer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Kamifubuki",
+      "elemental_skill": "Rites of the Winter Court",
+      "elemental_burst": "Secret Art: Musou Shinsetsu",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Cryo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Ayato",
+    "role": "Main DPS",
+    "weapons": ["Harbinger of Dawn", "The Black Sword", "Primordial Jade Cutter"],
+    "artifacts": ["Shimenawa's Reminiscence (4-Piece)"],
+    "talents": {
+      "normal_attack": "Kamisato Art: Kabuki",
+      "elemental_skill": "Kamisato Art: Kyouka",
+      "elemental_burst": "Kamisato Art: Senho",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Baizhu",
+    "role": "Support / Healer",
+    "weapons": ["Sacrificial Bow", "Favonius Warbow", "Mitternachts Waltz"],
+    "artifacts": ["Maiden Beloved (4-Piece)"],
+    "talents": {
+      "normal_attack": "Wanmin Restaurant",
+      "elemental_skill": "Tianxing Rejuvenation",
+      "elemental_burst": "Dendro Hypostasis",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["HP%", "Healing Bonus", "Dendro DMG Bonus"],
+      "sub": ["Energy Recharge", "DEF%", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Chasca",
+    "role": "Support / Sub DPS",
+    "weapons": ["Favonius Lance", "Prototype Starglitter", "The Catch"],
+    "artifacts": ["Husk of Opulent Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Piercing Gale",
+      "elemental_skill": "Flowing River",
+      "elemental_burst": "Echoing Mist",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Childe (Tartaglia)",
+    "role": "Main DPS / Sub DPS",
+    "weapons": ["Skyward Harp", "Rust", "Blackcliff Warbow"],
+    "artifacts": ["Heart of Depth (4-Piece)"],
+    "talents": {
+      "normal_attack": "Cutting Torrent",
+      "elemental_skill": "Foul Legacy: Raging Tide",
+      "elemental_burst": "Havoc: Obliteration",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Hydro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Chiori",
+    "role": "Sub DPS",
+    "weapons": ["Sacrificial Sword", "Favonius Sword", "Aquila Favonia"],
+    "artifacts": ["Shimenawa's Reminiscence (4-Piece)"],
+    "talents": {
+      "normal_attack": "Swift Blade",
+      "elemental_skill": "Crimson Step",
+      "elemental_burst": "Dancing Shadows",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Citlali",
+    "role": "Sub DPS / Support",
+    "weapons": ["The Widsith", "Favonius Codex", "Solar Pearl"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Solar Flare",
+      "elemental_skill": "Ecliptic Arc",
+      "elemental_burst": "Luminous Prism",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["CRIT Rate", "CRIT DMG", "ATK%"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Clorinde",
+    "role": "Sub DPS / Healer",
+    "weapons": ["Sacrificial Fragments", "Favonius Codex", "Memory of Dust"],
+    "artifacts": ["Maiden Beloved (4-Piece)"],
+    "talents": {
+      "normal_attack": "Gentle Breeze",
+      "elemental_skill": "Lunar Tide",
+      "elemental_burst": "Moonlight Blessing",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["HP%", "Healing Bonus", "Elemental Mastery"],
+      "sub": ["Energy Recharge", "DEF%", "ATK%"]
+    }
+  },
+  {
+    "name": "Cyno",
+    "role": "Main DPS",
+    "weapons": ["Staff of Homa", "Primordial Jade Winged-Spear", "Vortex Vanquisher"],
+    "artifacts": ["Emblem of Severed Fate (4-Piece)"],
+    "talents": {
+      "normal_attack": "Charged Attack",
+      "elemental_skill": "Sacred Rite: Wolf’s Swiftness",
+      "elemental_burst": "Celestial Vow",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Electro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Dehya",
+    "role": "Main DPS / Sub DPS",
+    "weapons": ["Serpent Spine", "The Unforged", "Redhorn Stonethresher"],
+    "artifacts": ["Crimson Witch of Flames (4-Piece)"],
+    "talents": {
+      "normal_attack": "Blazing Blade",
+      "elemental_skill": "Ardent Flame",
+      "elemental_burst": "Inferno Howl",
+      "priority_order": ["elemental_burst", "normal_attack", "elemental_skill"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Diluc",
+    "role": "Main DPS",
+    "weapons": ["Wolf’s Gravestone", "Serpent Spine", "Prototype Archaic"],
+    "artifacts": ["Crimson Witch of Flames (4-Piece)"],
+    "talents": {
+      "normal_attack": "Tempered Sword",
+      "elemental_skill": "Searing Onslaught",
+      "elemental_burst": "Dawn",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Emilie",
+    "role": "Support / Healer",
+    "weapons": ["Sacrificial Bow", "Favonius Warbow", "Mitternachts Waltz"],
+    "artifacts": ["Maiden Beloved (4-Piece)"],
+    "talents": {
+      "normal_attack": "Arrow Barrage",
+      "elemental_skill": "Healing Arrow",
+      "elemental_burst": "Radiant Bow",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["HP%", "Healing Bonus", "CRIT Rate"],
+      "sub": ["Energy Recharge", "DEF%"]
+    }
+  },
+  {
+    "name": "Escoffier",
+    "role": "Sub DPS / Support",
+    "weapons": ["Favonius Sword", "Sacrificial Sword", "Aquila Favonia"],
+    "artifacts": ["Husk of Opulent Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Swift Strike",
+      "elemental_skill": "Flaming Slash",
+      "elemental_burst": "Infernal Dance",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Eula",
+    "role": "Main DPS",
+    "weapons": ["Song of Broken Pines", "Claymore of Frost", "The Unforged"],
+    "artifacts": ["Pale Flame (4-Piece)"],
+    "talents": {
+      "normal_attack": "Favonius Bladework",
+      "elemental_skill": "Icetide Vortex",
+      "elemental_burst": "Glacial Illumination",
+      "priority_order": ["elemental_burst", "normal_attack", "elemental_skill"]
+    },
+    "stats_priority": {
+      "main": ["Physical DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Furina",
+    "role": "Sub DPS / Support",
+    "weapons": ["Sacrificial Fragments", "Favonius Codex", "The Widsith"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Rapid Shot",
+      "elemental_skill": "Frostfield",
+      "elemental_burst": "Tidal Wave",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Hydro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Flins",
+    "role": "Sub DPS / Support",
+    "weapons": ["The Widsith", "Favonius Codex", "Prototype Amber"],
+    "artifacts": ["Emblem of Severed Fate (4-Piece)"],
+    "talents": {
+      "normal_attack": "Arcane Shot",
+      "elemental_skill": "Mystic Shield",
+      "elemental_burst": "Celestial Blast",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Ganyu",
+    "role": "Main DPS / Sub DPS",
+    "weapons": ["Amos' Bow", "Prototype Crescent", "Skyward Harp"],
+    "artifacts": ["Blizzard Strayer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Liutian Archery",
+      "elemental_skill": "Trail of Qilin",
+      "elemental_burst": "Celestial Shower",
+      "priority_order": ["elemental_burst", "normal_attack", "elemental_skill"]
+    },
+    "stats_priority": {
+      "main": ["CRIT Rate", "CRIT DMG", "Cryo DMG Bonus"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Hu Tao",
+    "role": "Main DPS",
+    "weapons": ["Staff of Homa", "Dragon's Bane", "Deathmatch"],
+    "artifacts": ["Crimson Witch of Flames (4-Piece)"],
+    "talents": {
+      "normal_attack": "Secret Spear of Wangsheng",
+      "elemental_skill": "Guide to Afterlife",
+      "elemental_burst": "Spirit Soother",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["HP%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Ineffa",
+    "role": "Support / Sub DPS",
+    "weapons": ["Favonius Sword", "Sacrificial Sword", "The Flute"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Flowing Strike",
+      "elemental_skill": "Ethereal Step",
+      "elemental_burst": "Celestial Call",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Jean",
+    "role": "Support / Healer / Sub DPS",
+    "weapons": ["Aquila Favonia", "Sword of Descension", "Festering Desire"],
+    "artifacts": ["Viridescent Venerer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Favonius Bladework",
+      "elemental_skill": "Gale Blade",
+      "elemental_burst": "Dandelion Breeze",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Anemo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Kaedehara Kazuha",
+    "role": "Sub DPS / Support",
+    "weapons": ["Iron Sting", "Skyward Blade", "Festering Desire"],
+    "artifacts": ["Viridescent Venerer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Garyu Bladework",
+      "elemental_skill": "Chihayaburu",
+      "elemental_burst": "Kazuha Slash",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Anemo DMG Bonus", "Elemental Mastery", "CRIT Rate"],
+      "sub": ["Energy Recharge", "ATK%"]
+    }
+  },
+  {
+    "name": "Keqing",
+    "role": "Main DPS",
+    "weapons": ["Primordial Jade Cutter", "Aquila Favonia", "Lion’s Roar"],
+    "artifacts": ["Thundering Fury (4-Piece)"],
+    "talents": {
+      "normal_attack": "Stellar Restoration",
+      "elemental_skill": "Stellar Stiletto",
+      "elemental_burst": "Starward Sword",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Electro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Kinich",
+    "role": "Sub DPS / Support",
+    "weapons": ["The Widsith", "Favonius Codex", "Mappa Mare"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Solar Burst",
+      "elemental_skill": "Radiant Strike",
+      "elemental_burst": "Sunlight Finale",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Klee",
+    "role": "Main DPS",
+    "weapons": ["Lost Prayer to the Sacred Winds", "Skyward Atlas", "Solar Pearl"],
+    "artifacts": ["Crimson Witch of Flames (4-Piece)"],
+    "talents": {
+      "normal_attack": "Kaboom!",
+      "elemental_skill": "Jumpy Dumpty",
+      "elemental_burst": "Sparks 'n' Splash",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Kokomi",
+    "role": "Support / Healer",
+    "weapons": ["Everlasting Moonglow", "Sacrificial Fragments", "Favonius Codex"],
+    "artifacts": ["Ocean-Hued Clam (4-Piece)"],
+    "talents": {
+      "normal_attack": "Kurage's Oath",
+      "elemental_skill": "Bake-Kurage",
+      "elemental_burst": "Nereid's Ascension",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["HP%", "Healing Bonus", "Hydro DMG Bonus"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Lauma",
+    "role": "Sub DPS / Support",
+    "weapons": ["Favonius Sword", "The Flute", "Prototype Rancour"],
+    "artifacts": ["Husk of Opulent Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Swift Strike",
+      "elemental_skill": "Tidal Dash",
+      "elemental_burst": "Oceanic Finale",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Lyney",
+    "role": "Main DPS",
+    "weapons": ["Aquila Favonia", "The Black Sword", "Primordial Jade Cutter"],
+    "artifacts": ["Crimson Witch of Flames (4-Piece)"],
+    "talents": {
+      "normal_attack": "Magical Shot",
+      "elemental_skill": "Illusionary Tricks",
+      "elemental_burst": "Arcane Showstopper",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Mavuika",
+    "role": "Sub DPS / Support",
+    "weapons": ["The Widsith", "Favonius Codex", "Solar Pearl"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Flowing Strike",
+      "elemental_skill": "Ethereal Step",
+      "elemental_burst": "Celestial Call",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Elemental Mastery", "ATK%", "CRIT Rate"],
+      "sub": ["Energy Recharge", "CRIT DMG"]
+    }
+  },
+  {
+    "name": "Mona",
+    "role": "Sub DPS / Support",
+    "weapons": ["Skyward Atlas", "The Widsith", "Prototype Amber"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Ripple of Fate",
+      "elemental_skill": "Mirror Reflection of Doom",
+      "elemental_burst": "Stellaris Phantasm",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Hydro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge", "ATK%"]
+    }
+  },
+  {
+    "name": "Mualani",
+    "role": "Support / Sub DPS",
+    "weapons": ["Favonius Sword", "Iron Sting", "The Flute"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Swift Strike",
+      "elemental_skill": "Flowing Tide",
+      "elemental_burst": "Oceanic Finale",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Nahida",
+    "role": "Support / Sub DPS",
+    "weapons": ["Sacrificial Fragments", "The Widsith", "Mappa Mare"],
+    "artifacts": ["Gilded Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Seed of Knowledge",
+      "elemental_skill": "Illuminated Path",
+      "elemental_burst": "Illumination",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Dendro DMG Bonus", "Elemental Mastery", "CRIT Rate"],
+      "sub": ["ATK%", "Energy Recharge", "CRIT DMG"]
+    }
+  },
+  {
+    "name": "Navia",
+    "role": "Sub DPS / Support",
+    "weapons": ["Favonius Sword", "The Flute", "Iron Sting"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Blade Dance",
+      "elemental_skill": "Flowing Current",
+      "elemental_burst": "Torrential Wave",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Neuvillette",
+    "role": "Main DPS / Sub DPS",
+    "weapons": ["Primordial Jade Cutter", "Aquila Favonia", "The Black Sword"],
+    "artifacts": ["Gladiator's Finale (4-Piece)"],
+    "talents": {
+      "normal_attack": "Deadly Strike",
+      "elemental_skill": "Judgment",
+      "elemental_burst": "Execution",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Hydro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Nilou",
+    "role": "Main DPS",
+    "weapons": ["Primordial Jade Cutter", "Favonius Sword", "The Black Sword"],
+    "artifacts": ["Heart of Depth (4-Piece)"],
+    "talents": {
+      "normal_attack": "Petal Dance",
+      "elemental_skill": "Dance of Lotus",
+      "elemental_burst": "Fountain of Bloom",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Hydro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Qiqi",
+    "role": "Healer / Support",
+    "weapons": ["Sacrificial Sword", "Skyward Blade", "The Flute"],
+    "artifacts": ["Maiden Beloved (4-Piece)"],
+    "talents": {
+      "normal_attack": "Adeptus Art: Herald of Frost",
+      "elemental_skill": "Adeptus Art: Herald of Frost",
+      "elemental_burst": "Adeptus Art: Preserver of Fortune",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["HP%", "Healing Bonus", "ATK%"],
+      "sub": ["Energy Recharge", "CRIT Rate"]
+    }
+  },
+  {
+    "name": "Raiden Shogun",
+    "role": "Main DPS / Sub DPS / Support",
+    "weapons": ["Engulfing Lightning", "The Catch", "Skyward Spine"],
+    "artifacts": ["Emblem of Severed Fate (4-Piece)"],
+    "talents": {
+      "normal_attack": "Origin",
+      "elemental_skill": "Transcendence: Baleful Omen",
+      "elemental_burst": "Secret Art: Musou Shinsetsu",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Electro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "ATK%"]
+    }
+  },
+  {
+    "name": "Shenhe",
+    "role": "Support / Sub DPS",
+    "weapons": ["Calamity Queller", "Skyward Spine", "The Catch"],
+    "artifacts": ["Blizzard Strayer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Summoning Strike",
+      "elemental_skill": "Spring Spirit Summoning",
+      "elemental_burst": "Divine Maiden's Deliverance",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Cryo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+    {
+    "name": "Sigewinne",
+    "role": "Support / Sub DPS",
+    "weapons": ["Favonius Sword", "The Flute", "Iron Sting"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Swift Strike",
+      "elemental_skill": "Gale Step",
+      "elemental_burst": "Stormcall",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Skirk",
+    "role": "Main DPS",
+    "weapons": ["Aquila Favonia", "The Black Sword", "Primordial Jade Cutter"],
+    "artifacts": ["Gladiator's Finale (4-Piece)"],
+    "talents": {
+      "normal_attack": "Blade Dance",
+      "elemental_skill": "Fury Strike",
+      "elemental_burst": "Crimson Tempest",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Physical DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Tighnari",
+    "role": "Main DPS / Sub DPS",
+    "weapons": ["Hunter's Bow", "Aquila Favonia", "The Viridescent Hunt"],
+    "artifacts": ["Gilded Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Firwood Arrow",
+      "elemental_skill": "Vine Pulse",
+      "elemental_burst": "Verdant Bloom",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Dendro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Varesa",
+    "role": "Support / Sub DPS",
+    "weapons": ["Favonius Sword", "The Flute", "Iron Sting"],
+    "artifacts": ["Noblesse Oblige (4-Piece)"],
+    "talents": {
+      "normal_attack": "Blade Swipe",
+      "elemental_skill": "Elemental Flux",
+      "elemental_burst": "Storm Summons",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["ATK%", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Venti",
+    "role": "Support / Crowd Control",
+    "weapons": ["Skyward Harp", "Favonius Warbow", "The Stringless"],
+    "artifacts": ["Viridescent Venerer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Divine Marksmanship",
+      "elemental_skill": "Skyward Sonnet",
+      "elemental_burst": "Wind's Grand Ode",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Anemo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Wanderer",
+    "role": "Sub DPS / Support",
+    "weapons": ["Iron Sting", "The Widsith", "Sacrificial Fragments"],
+    "artifacts": ["Viridescent Venerer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Song of Freedom",
+      "elemental_skill": "Cadenza",
+      "elemental_burst": "Tempest Sforzando",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Anemo DMG Bonus", "Elemental Mastery", "CRIT Rate"],
+      "sub": ["Energy Recharge", "ATK%"]
+    }
+  },
+  {
+    "name": "Wriothesley",
+    "role": "Main DPS",
+    "weapons": ["Aquila Favonia", "The Black Sword", "Primordial Jade Cutter"],
+    "artifacts": ["Gladiator's Finale (4-Piece)"],
+    "talents": {
+      "normal_attack": "Blade Flurry",
+      "elemental_skill": "Lunging Strike",
+      "elemental_burst": "Dragon's Roar",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Physical DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Xianyun",
+    "role": "Support / Sub DPS",
+    "weapons": ["Favonius Sword", "Iron Sting", "The Flute"],
+    "artifacts": ["Blizzard Strayer (4-Piece)"],
+    "talents": {
+      "normal_attack": "Frost Strike",
+      "elemental_skill": "Frozen Step",
+      "elemental_burst": "Glacial Domain",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Cryo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "ATK%"]
+    }
+  },
+  {
+    "name": "Xiao",
+    "role": "Main DPS",
+    "weapons": ["Primordial Jade Winged-Spear", "Staff of Homa", "Blackcliff Pole"],
+    "artifacts": ["Vermillion Hereafter / Gladiator's Finale (4-Piece)"],
+    "talents": {
+      "normal_attack": "Whirlwind Thrust",
+      "elemental_skill": "Lemniscatic Wind Cycling",
+      "elemental_burst": "Bane of All Evil",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Anemo DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Xilonen",
+    "role": "Sub DPS / Support",
+    "weapons": ["The Widsith", "Favonius Codex", "Solar Pearl"],
+    "artifacts": ["Gilded Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Blooming Strike",
+      "elemental_skill": "Floral Pulse",
+      "elemental_burst": "Sunlit Waltz",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Dendro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Energy Recharge", "ATK%"]
+    }
+  },
+  {
+    "name": "Yae Miko",
+    "role": "Sub DPS / Support",
+    "weapons": ["Kagura's Verity", "The Widsith", "Mappa Mare"],
+    "artifacts": ["Gilded Dreams (4-Piece)"],
+    "talents": {
+      "normal_attack": "Normal Attack",
+      "elemental_skill": "Yakan Evocation: Sesshou Sakura",
+      "elemental_burst": "Great Secret Art: Tenko Kenshin",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Electro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Yelan",
+    "role": "Sub DPS / Support",
+    "weapons": ["Aquila Favonia", "Elegy for the End", "The Stringless"],
+    "artifacts": ["Emblem of Severed Fate (4-Piece)"],
+    "talents": {
+      "normal_attack": "Normal Attack",
+      "elemental_skill": "Lingering Lifeline",
+      "elemental_burst": "Depth-Clarion Dice",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Hydro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Elemental Mastery", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Yoimiya",
+    "role": "Main DPS",
+    "weapons": ["Thundering Pulse", "Skyward Pride", "The Stringless"],
+    "artifacts": ["Shimenawa's Reminiscence (4-Piece)"],
+    "talents": {
+      "normal_attack": "Normal Attack",
+      "elemental_skill": "Niwabi Fire-Dance",
+      "elemental_burst": "Ryuukin Saxifrage",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Pyro DMG Bonus", "CRIT Rate", "CRIT DMG"],
+      "sub": ["ATK%", "Energy Recharge"]
+    }
+  },
+  {
+    "name": "Yumemizuki Mizuki",
+    "role": "Support / Healer",
+    "weapons": ["Sacrificial Bow", "Favonius Warbow", "The Stringless"],
+    "artifacts": ["Maiden Beloved (4-Piece)"],
+    "talents": {
+      "normal_attack": "Arrow Shot",
+      "elemental_skill": "Moonlight Call",
+      "elemental_burst": "Dreamlight Blessing",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["HP%", "Healing Bonus", "ATK%"],
+      "sub": ["Energy Recharge", "Elemental Mastery"]
+    }
+  },
+  {
+    "name": "Zhongli",
+    "role": "Support / Shield",
+    "weapons": ["Vortex Vanquisher", "Primordial Jade Winged-Spear", "Black Tassel"],
+    "artifacts": ["Archaic Petra (4-Piece)"],
+    "talents": {
+      "normal_attack": "Rain of Stone",
+      "elemental_skill": "Dominus Lapidis",
+      "elemental_burst": "Planet Befall",
+      "priority_order": ["elemental_burst", "elemental_skill", "normal_attack"]
+    },
+    "stats_priority": {
+      "main": ["Geo DMG Bonus", "Shield Strength", "CRIT Rate"],
+      "sub": ["HP%", "Energy Recharge"]
+    }
+  }
+]
