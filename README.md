@@ -42,9 +42,11 @@ Tkinter (usually included with Python)
 
 🧠 Example Query
 
-You: “Hu Tao”
+You: “Suggest me a good ayaka build”
 
-BuilderMon: “🔥 Hu Tao is a top-tier Pyro DPS! Her best weapons include Staff of Homa or Dragon’s Bane. For artifacts, focus on Crimson Witch of Flames or Shimenawa’s Reminiscence with a focus on Crit DMG and Pyro DMG bonus...”
+BuilderMon: “🔥 Ayaka is a top-tier cryo DPS! Her best weapons include Mistsplitter Reforged or Amenoma Kageuchi. For artifacts, focus on Blizzard Strayer with a focus on Crit DMG and Cryo DMG bonus...”
+![WhatsApp Image 2025-11-02 at 01 11 47_e5798440](https://github.com/user-attachments/assets/0c0684b3-c025-41a2-b706-bb6330319597)
+
 
 📜 License
 
