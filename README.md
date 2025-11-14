@@ -4,15 +4,15 @@ BuilderMon is an interactive desktop assistant designed to help Genshin Impact p
 
 ✨ Features
 
-🗨️ Chatbot UI built with Tkinter for an engaging, dark-themed user experience
+  Chatbot UI built with Tkinter for an engaging, dark-themed user experience
 
-⚙️ LLM integration via Ollama (deepseek-v3.1:671b-cloud) for conversational, enriched responses
+  LLM integration via Ollama (deepseek-v3.1:671b-cloud) for conversational, enriched responses
 
-📚 Structured build data from genshin_character_builds.json for accurate build lookups
+  Structured build data from genshin_character_builds.json for accurate build lookups
 
-🔄 Hybrid responses — combines JSON data with AI-generated recommendations
+  Hybrid responses — combines JSON data with AI-generated recommendations
 
-🚀 Threaded response handling for smooth, non-blocking chat interactions
+  Threaded response handling for smooth, non-blocking chat interactions
 
 🧩 Components
 
@@ -40,7 +40,7 @@ Ollama installed and configured
 
 Tkinter (usually included with Python)
 
-🧠 Example Query
+Example Query
 
 You: “Suggest me a good ayaka build”
 
@@ -48,6 +48,6 @@ BuilderMon: “🔥 Ayaka is a top-tier cryo DPS! Her best weapons include Mists
 ![WhatsApp Image 2025-11-02 at 01 11 47_e5798440](https://github.com/user-attachments/assets/0c0684b3-c025-41a2-b706-bb6330319597)
 
 
-📜 License
+License
 
 MIT License
