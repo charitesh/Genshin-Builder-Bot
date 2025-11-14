@@ -19,11 +19,11 @@ def query_ollama(prompt: str) -> str:
         )
         output = result.stdout.strip()
         if not output:
-            return "⚠️ Ollama returned an empty response."
+            return "Ollama returned an empty response."
         return output
     except subprocess.CalledProcessError as e:
         err_output = e.stderr.strip() if e.stderr else "No error output."
-        return f"⚠️ Error contacting Ollama: {err_output}"
+        return f"Error contacting Ollama: {err_output}"
 
 
 
@@ -49,3 +49,4 @@ If the character is not found, check genshin.gg and enka.network.
 If character is not on genshin.gg, politely inform the user and dont assume they are talking about a different character and politely tell them your database is based on old data and ask them to check other sources.
 """
     return query_ollama(prompt)
+
