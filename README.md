@@ -29,7 +29,7 @@ Example Query:
 You: “Suggest me a good ayaka build”
 
 BuilderMon: “Ayaka is a top-tier cryo DPS! Her best weapons include Mistsplitter Reforged or Amenoma Kageuchi. For artifacts, focus on Blizzard Strayer with a focus on Crit DMG and Cryo DMG bonus...”
-!(https://github.com/user-attachments/assets/0c0684b3-c025-41a2-b706-bb6330319597)
+![BuilderMon UI](https://github.com/user-attachments/assets/your-image-id)
 
 
 License
